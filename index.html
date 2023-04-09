@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Local Storage - Exercicio</title>
+    <link rel="stylesheet" href="./css/estilo2.css">
+</head>
+
+<body>
+    <section class="container">
+        <header>
+            <h1>Lista de Tarefas</h1>
+        </header>
+
+        <main>
+            <section class="entrada">
+                <input type="text" name="inputInserir" id="inputInserir" maxlength="27" autofocus required>
+                <button class="btnInserir"><span class="material-symbols-outlined">add_box</span>Adicionar</button>
+            </section>
+            <hr>
+            <section class="lista">
+                <div class="legenda">
+                    <h4>legenda: <span class="material-symbols-outlined">more_vert</span></h4>
+                    <ul class="oculto">
+                        <li><span class="priority material-symbols-outlined">priority</span>Pendente</li>
+                        <li><span class="verified material-symbols-outlined">verified</span>Finalizada</li>
+                        <li><span class="priority_high material-symbols-outlined">priority_high</span>Prioridade</li>
+                        <li><span class="delete material-symbols-outlined">delete</span>Excluída</li>
+                    </ul>
+                </div>
+
+                <!-- aqui entrarão as tarefas pelo Javascript -->
+            </section>
+        </main>
+    </section>
+
+    <script src="./js/teste3.js"></script>
+</body>
+
+</html>
